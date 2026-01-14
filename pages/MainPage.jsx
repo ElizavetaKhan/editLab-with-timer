@@ -7,6 +7,7 @@ import { HeroSection } from '../components/HeroSection';
 import { ProgramBlock } from '../components/ProgramBlock';
 import { TestimonialsBlock } from '../components/TestimonialsBlock';
 import { CTABlock } from '../components/CTABlock';
+import { CountdownTimer } from '../components/CountdownTimer';
 
 const MainPageContainer = styled.div`
     display: flex;
@@ -75,6 +76,8 @@ export default function MainPage() {
     return (
         <MainPageContainer>
             <HeroSection clickNumber={clickNumber} />
+            
+            <CountdownTimer targetDate={new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)} />
             
             <ButtonReg
                 clickNumber={clickNumber}

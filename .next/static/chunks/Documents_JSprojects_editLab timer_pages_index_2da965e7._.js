@@ -1,4 +1,6 @@
-__turbopack_load_page_chunks__("/", [
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
   "static/chunks/[root-of-the-server]__dfdcfe7f._.js",
   "static/chunks/d8015_next_dist_compiled_next-devtools_index_253d6bef.js",
   "static/chunks/d8015_next_dist_compiled_fa532d32._.js",
@@ -6,7 +8,7 @@ __turbopack_load_page_chunks__("/", [
   "static/chunks/d8015_next_dist_client_c22515aa._.js",
   "static/chunks/d8015_next_dist_74e1380f._.js",
   "static/chunks/d8015_react-dom_9d8f2698._.js",
-  "static/chunks/d8015_fa14ea3a._.js",
-  "static/chunks/Documents_JSprojects_editLab timer_pages_index_2da965e7._.js",
-  "static/chunks/turbopack-Documents_JSprojects_editLab timer_pages_index_bcb745b0._.js"
-])
+  "static/chunks/d8015_fa14ea3a._.js"
+],
+    source: "entry"
+});
